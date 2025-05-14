@@ -6,119 +6,116 @@
   <title>Contato - Grupo Link Papel</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white font-sans">
+<body class="bg-[#709466] font-sans">
 
-    <!-- Navbar -->
-    <nav class="bg-[#0c2c47] text-white">
-        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between px-4 md:px-8 py-4">
-            <a href="index.html" class="text-2xl font-extrabold">GRUPO <span class="italic">Link Papel</span></a>
-            <div class="hidden md:flex space-x-4 text-sm md:text-base">
-               <!-- <a href="sobre.html" class="font-bold">Sobre</a>-->
-                <a href="produtos.html" class="font-bold">Produtos</a>
-                <a href="blog.html" class="font-bold">Blog</a>
-                <a href="contato.html" class="font-bold border-b-4 border-white pb-1">Contato</a>
-            </div>
-        </div>
-    </nav>
+  <!-- Navbar -->
+  <nav class="bg-[#709466] text-white">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between px-4 md:px-8 py-4">
+      <a href="index.html" class="text-2xl font-extrabold">GRUPO <span class="italic">Link Papel</span></a>
+      <div class="hidden md:flex space-x-4 text-sm md:text-base">
+        <a href="produtos.html" class="font-bold">Produtos</a>
+        <a href="blog.html" class="font-bold">Blog</a>
+        <a href="contato.html" class="font-bold">Contato</a>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Contato -->
-    <section class="py-10">
-        <h1 class="text-3xl md:text-4xl font-bold text-center text-black mb-8">Entre em Contato</h1>
-        <div class="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- Informações -->
-            <div class="space-y-6 text-sm md:text-base">
-                <div>
-                    <p class="font-bold">Quer fazer parte da nossa equipe?</p>
-                    <button class="mt-2 bg-[#0c2c47] text-white font-bold py-2 px-4 rounded">QUERO FAZER PARTE DA EQUIPE!</button>
+  <!-- Contato -->
+  <section class="py-10 bg-gray-100">
+    <h1 class="text-3xl md:text-4xl font-bold text-center text-[#0c2c47] mb-10">Entre em Contato</h1>
+    <div class="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Informações -->
+        <div class="space-y-6 text-sm md:text-base">
+            <div class="bg-white p-6 rounded-lg shadow space-y-2">
+                <p class="font-bold text-[#0c2c47] text-center">Quer fazer parte da nossa equipe?</p>
+                <button class="mt-2 bg-[#709466] text-white font-bold py-2 px-4 rounded hover:brightness-90 w-full mx-auto transition">QUERO FAZER PARTE DA EQUIPE!</button>
                 </div>
-                <div>
-                    <p class="font-bold">Rótulos, Bobinas e Etiquetas</p>
-                    <p>Av. Rodrigues Alves, 36-16 – Vila Coralina – Bauru – SP</p>
-                    <p>marketing@tiliform.com.br / 0800-702-0034</p>
-                    <p>Seg. à Sex. 08:00 às 18:00</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1939077413724!2d-49.07386418502315!3d-22.823225985051732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67e4262f3b29%3A0x3e71f6bdc5281ed3!2sAv.%20Rodrigues%20Alves%2C%2036-16%20-%20Vila%20Coralina%2C%20Bauru%20-%20SP%2C%2017013-200!5e0!3m2!1spt-BR!2sbr!4v1715366753808!5m2!1spt-BR!2sbr" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                <div>
-                    <p class="font-bold">Embalagens Flexíveis</p>
-                    <p>Av. Antenor Almeida, 2-50 – Jardim Colonial – Bauru – SP</p>
-                    <p>marketing@tiliform.com.br / (14) 2109-3981</p>
-                    <p>Seg. à Sex. 08:00 às 18:00</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4377495141635!2d-49.0868369845413!3d-22.81617793898192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf679a654b56a9%3A0x80e58ef4c3f4bffa!2sAv.%20Antenor%20Almeida%2C%202-50%20-%20Jardim%20Colonial%2C%20Bauru%20-%20SP%2C%2017047-590!5e0!3m2!1spt-BR!2sbr!4v1715367353808!5m2!1spt-BR!2sbr" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
 
-            <!-- Formulário -->
-            <div class="bg-[#0c2c47] text-white p-6 md:p-8 rounded">
-                <h2 class="text-base md:text-lg font-bold mb-4">Preencha com seus dados abaixo e nossa equipe entrará em contato.</h2>
-                <form id="contactForm" class="space-y-4">
-                    <input type="text" placeholder="Nome" class="w-full px-3 py-2 rounded text-black" required />
-                    <div class="flex flex-col sm:flex-row gap-2">
-                        <input type="text" placeholder="Número" class="w-full sm:w-1/2 px-3 py-2 rounded text-black" required />
-                        <input type="email" placeholder="E-mail" class="w-full sm:w-1/2 px-3 py-2 rounded text-black" required />
-                    </div>
-                    <textarea placeholder="Mensagem" rows="5" class="w-full px-3 py-2 rounded text-black" required></textarea>
-                    <button type="submit" class="bg-green-500 w-full py-2 font-bold rounded hover:bg-green-600">Quero entrar em contato</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-[#0c2c47] text-white pt-12 pb-6">
-        <div class="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="text-center md:text-left">
-                <h2 class="text-2xl font-extrabold">GRUPO <span class="italic">Link Papel</span></h2>
-                <p class="text-base mt-1">IMPRESSÕES QUE CONECTAM</p>
-                <p class="mt-4 text-sm md:text-base">Excelência em Embalagens Flexíveis, Rótulos Adesivos, Etiquetas e Bobinas Térmicas!</p>
-                <div class="flex justify-center md:justify-start space-x-3 mt-6">
-                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-6 h-6"></a>
-                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" class="w-6 h-6"></a>
-                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" class="w-6 h-6"></a>
-                </div>
-            </div>
-            <div>
-                <h3 class="font-bold text-lg mb-3 border-b border-white w-max">Menu</h3>
-                <ul class="space-y-2 text-sm md:text-base">
-                    <li><a href="#">Sobre o Grupo</a></li>
-                    <li><a href="#">Termos de Serviço</a></li>
-                    <li><a href="#">Política de Privacidade</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Produtos/Orçamento</a></li>
-                    <li><a href="#">Trabalhe Conosco</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="font-bold text-lg mb-3">Contato</h3>
-                <p class="text-sm md:text-base mb-2">📍 Av. Rodrigues Alves, 36-16 - Vila Coralina - Bauru / Av. Antenor Almeida, 2-50 - Jardim Colonial - Bauru</p>
-                <p class="text-sm md:text-base mb-2">📞 (14) 2106-8595 / 0800-702-0034</p>
-                <p class="text-sm md:text-base">✉ contato@lojatiliform.com.br</p>
+                <div class="bg-white p-6 rounded-lg shadow space-y-2">
+                <p class="font-bold text-[#0c2c47] text-center">Rótulos, Bobinas e Etiquetas</p>
+                <p>R. Eng. Guilherme Cristiano Frender, 1361 B –  Vila Antonieta – São Paulo – SP – Cep-03477-000</p>
+                <p>contato@linkpapeis.com.br</p>
+                <p>Seg. à Sex. 07:00 às 18:00</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1939077413724!2d-49.07386418502315!3d-22.823225985051732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67e4262f3b29%3A0x3e71f6bdc5281ed3!2sAv.%20Rodrigues%20Alves%2C%2036-16%20-%20Vila%20Coralina%2C%20Bauru%20-%20SP%2C%2017013-200!5e0!3m2!1spt-BR!2sbr!4v1715366753808!5m2!1spt-BR!2sbr" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
 
-        <!-- Faixa de botões -->
-        <div class="mt-8">
-            <div class="max-w-7xl mx-auto px-4 md:px-8">
-                <div class="bg-[#00c0f3] rounded-lg flex flex-wrap justify-center md:justify-between items-center px-6 py-4 gap-2">
-                    <a href="#" class="text-white font-bold text-base">🚚 Conheça nossa Loja virtual</a>
-                    <a href="#" class="bg-[#f15329] text-white font-bold px-4 py-2 rounded text-sm">Quero comprar na loja</a>
-                </div>
-            </div>
+      <!-- Formulário -->
+        <div class="flex justify-end items-start">
+           <div class="bg-white p-4 rounded-lg shadow-md max-w-sm mx-auto">
+               <h2 class="text-base font-bold text-[#0c2c47] mb-3 text-center">
+                   Preencha com seus dados abaixo e nossa equipe entrará em contato.
+               </h2>
+   
+               <form id="contactForm" class="space-y-3">
+                   <input type="text" placeholder="Nome" class="w-full px-3 py-2 rounded text-black border border-gray-300 text-sm" required />
+   
+                   <div class="flex flex-col sm:flex-row gap-2">
+                   <input type="text" placeholder="Número" class="w-full sm:w-1/2 px-3 py-2 rounded text-black border border-gray-300 text-sm" required />
+                   <input type="email" placeholder="E-mail" class="w-full sm:w-1/2 px-3 py-2 rounded text-black border border-gray-300 text-sm" required />
+                   </div>
+   
+                   <textarea placeholder="Mensagem" rows="3" class="w-full px-3 py-2 rounded text-black border border-gray-300 text-sm" required></textarea>
+   
+                   <button type="submit" class="bg-[#709466] w-full py-2 font-bold text-white rounded hover:brightness-90 transition text-sm">
+                   Quero entrar em contato
+                   </button>
+               </form>
+           </div>
         </div>
 
-        <!-- Botão WhatsApp -->
-        <a href="https://wa.me/5514999999999" target="_blank" class="fixed bottom-4 right-4 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition transform">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="w-6 h-6">
-        </a>
-    </footer>
 
-    <!-- Script de validação -->
-    <script>
-        document.getElementById("contactForm").addEventListener("submit", function(e) {
-            e.preventDefault();
-            alert("Mensagem enviada com sucesso!");
-            this.reset();
-        });
-    </script>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#709466] text-white pt-12 pb-6">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="text-center md:text-left">
+        <h2 class="text-2xl font-extrabold">GRUPO <span class="italic">Link Papel</span></h2>
+        <p class="text-base mt-1">IMPRESSÕES QUE CONECTAM</p>
+        <p class="mt-4 text-sm md:text-base">Excelência em Embalagens Flexíveis, Rótulos Adesivos, Etiquetas e Bobinas Térmicas!</p>
+        <div class="flex justify-center md:justify-start space-x-3 mt-6">
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-6 h-6"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" class="w-6 h-6"></a>
+        </div>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-3 border-b border-white w-max">Menu</h3>
+        <ul class="space-y-2 text-sm md:text-base">
+          <li><a href="#">Sobre o Grupo</a></li>
+          <li><a href="#">Termos de Serviço</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Produtos/Orçamento</a></li>
+          <li><a href="#">Trabalhe Conosco</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-3">Contato</h3>
+        <p class="text-sm md:text-base mb-2">📍 R. Eng. Guilherme Cristiano Frender, 1361 B - Vila Antonieta  São Paulo - SP, 03477-000</p>
+        <p class="text-sm md:text-base mb-2">📞 (55) 11-93340-0656</p>
+        <p class="text-sm md:text-base">✉ contato@linkpapeis.com.br</p>
+      </div>
+    </div>
+
+
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/5514999999999" target="_blank" class="fixed bottom-4 right-4  text-white p-4 rounded-full shadow-lg hover:scale-110 transition transform">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="w-6 h-6">
+    </a>
+  </footer>
+
+  <!-- Script de validação -->
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("Mensagem enviada com sucesso!");
+      this.reset();
+    });
+  </script>
 
 </body>
 </html>
